@@ -1,0 +1,70 @@
+*{
+    font-family: Noto Serif;
+}
+body{
+    margin: 0;
+    background-color: #FFDBAA;
+    background-image: url(./assets/laughing_niki.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom; 
+    background-size: 20%;
+}
+
+.nav--logo{
+    /* margin-top: 10px ;
+    margin-bottom: 10px; */
+    margin-left: 25px;
+    height: 90px;
+    width: 90px;
+}
+
+.nav--item1, .nav--item2{
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #79155B;
+}
+
+.nav--item1{
+    font-size: 30px;
+   font-weight: 700;
+   color: #FFBA86;
+   padding-left: 7px;
+}
+
+.nav--item2{
+    padding-right: 100px;
+    margin-left: auto;
+    color: #FFBA86;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main--heading{
+    margin-top: 55px;
+    margin-left: 25px;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    font-family: Roboto Mono;
+}
+
+.main--points {
+    margin-left: 30px;
+    font-size: 25px;
+    line-height: 2;
+}
+
+.main--points ::marker{
+    font-size: 1.4rem;
+    color: #F6635C;
+}
+
+/* .main{
+    
+} */
+
